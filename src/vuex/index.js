@@ -7,7 +7,8 @@ import * as mutations from './mutations'
 Vue.use(Vuex)
 
 const state = {
-	count:0
+	count:0,
+	isLogin: 0
 }
 
 
@@ -18,5 +19,8 @@ const store = new Vuex.Store({
 	actions,
 	getters //计算属性
 })
+
+
+
 
 export default store
